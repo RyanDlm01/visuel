@@ -1,0 +1,411 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+.clear{
+    clear:both;
+}
+         /* HEADER */
+
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+    border-bottom: 1px solid orange;
+    background-color: #080d13;
+    padding: 0 20px;
+}
+
+header h1
+{
+    font-family: Helvetica;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+.point
+{
+    color:orange;
+}
+header nav
+{
+    min-width:10px;
+}
+header nav ul
+{
+     list-style: none;
+    display: flex; /* Utilisez flex ici aussi pour aligner horizontalement les liens */
+    padding: 0; /* Enlevez le padding par défaut */
+    margin: 0; /* Enlevez la marge par défaut */
+}
+header nav ul li
+{
+    margin-right: 30px; /* Ajustez selon l'espacement désiré */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Pas de marge à droite pour le dernier élément */
+}
+
+a
+{ 
+    text-decoration:none;
+    color: white;
+    font-family: Helvetica;
+    padding-right: 10px;
+}
+
+li a:hover
+{
+    color: orange;
+    font-weight:bold;
+    border-right: 1px solid orange;
+}
+
+
+
+        /* IMAGE */
+
+
+#main-image 
+{
+    height: 600px;
+    width:100%;
+    background: url('camera.jpg');
+    text-align:center;
+
+}
+
+section div h2
+{
+    color:white;
+    font-size: 40px;
+    font-family: Arial;
+    padding-top: 100px;
+    text-transform:uppercase;
+    margin-bottom: 30px;
+    padding-top:145px;
+    padding-bottom:50px;
+}
+
+strong
+{
+    color:orange;
+    font-size:45px;
+}
+
+.button1
+{
+    display:block;
+    height:60px;
+    width:120px;
+    background: orange;
+    margin: 0 auto;
+    text-align:center;
+    line-height: 60px;
+    color:white;
+    font-size: 20px ;
+    font-family: Arial;
+    font-weight:bold;
+    border-radius: 3px;
+}
+
+.button1:hover
+{
+    background: #080d13;
+    color: orange;
+    font-weight:bold;
+    font-size:21px;
+    border: 1px solid orange;
+}
+    
+    
+              /* PROJETS */
+    
+    
+#projets
+{
+    display: flex;
+    flex-direction: row; /* Alignement horizontal par défaut */
+    justify-content: space-between; /* Espacement uniforme entre les éléments */
+    align-items: flex-start; /* Alignement vertical en haut */
+    background-color: #080d13;
+    border-bottom: 1px solid orange;
+    padding: 20px;
+}
+
+#projets h1
+{
+     font-family: Helvetica;
+    font-size: 40px;
+    color: white;
+    margin: 20px 0 20px; /* Ajoutez de l'espace en dessous du titre */
+    text-transform: uppercase;
+    align-self: flex-start;
+    
+}
+    
+    
+.article1
+{
+    flex: 1 1 60%; /* Occupe 60% de l'espace disponible */
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.article1h2
+{
+
+    font-family: Helvetica;
+    font-size: 20px;
+    color:white;
+    margin-top: 30px;
+    margin-bottom:30px;
+    padding:20px;
+    margin-right: 5px;
+    text-align:center;
+    
+    
+}
+
+article ul {
+    width: 100%; /* Assurez-vous que le ul utilise toute la largeur */
+    padding: 0; /* Retirez tout padding intérieur par défaut */
+}
+
+article ul li
+{
+    
+    font-family: Helvetica;
+    font-size: 20px;
+    color:white;
+    margin: 0; /* Supprime la marge automatique */
+    padding: 20px;
+    padding-left: 0; /* Supprime le padding gauche pour réduire l'espace */
+       
+}
+
+.li-unique
+{
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+    font-family: Helvetica;
+    font-size: 25px;
+    color:white;
+    font-weight:bold;
+}
+
+.paysage
+{
+    flex: 0 1 590px; /* Utilise flex-grow: 0 pour éviter que l'élément grandisse, flex-basis: 590px */
+    height: 400px;
+    background: url('paysage.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+
+             /* FORMATION */
+
+
+#formation
+{
+    display: flex;
+    flex-wrap: wrap;  /* Permet aux éléments de passer à la ligne suivante si nécessaire */
+    justify-content: space-around; /* Assure un espacement uniforme autour des éléments */
+    align-items: flex-start; /* Alignement des éléments au début verticalement */
+    width: 100%; /* Assure que le conteneur prend toute la largeur disponible */
+    background-color: #080d13;
+    padding: 20px 0; /* Espacement vertical sans affecter la largeur */
+    box-sizing: border-box;
+}
+
+#formation h1
+{
+    font-family: Helvetica;
+    font-size: 40px;
+    color:white;
+    float: right;
+    text-transform: uppercase;
+    margin-top:60px;
+    margin-right: 90px;
+    margin-left:20px;
+}
+
+
+#formation div
+{
+    height:50px;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 100px;
+    
+}
+.article2h2
+{
+    font-family: Helvetica;
+    font-size: 20px;
+    color:white;
+    text-align:center;
+    padding-top: 0px;
+    
+}
+
+.article2
+{
+
+    height: 75%;
+    width: 70%;
+    border: 3px solid orange;
+    border-radius:3px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom:auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.carré1, .carré2, .carré3 {
+    flex: 0 0 250px; /* Chaque bloc a une largeur fixe de 250px et ne grandit ni ne rétrécit */
+    margin: 20px; /* Espacement autour de chaque bloc */
+    display: flex; /* Utilise Flexbox pour aligner le contenu à l'intérieur */
+    padding-bottom: 10px;
+    flex-direction: column; /* Arrange les éléments verticalement */
+    align-items: center; /* Centre horizontalement tous les éléments à l'intérieur */
+    justify-content: center; /* Centre verticalement le contenu */
+    height: auto; /* Ajuste la hauteur en fonction du contenu */
+    background-color: #898B8E; /* Couleur de fond pour carré1, ajustez pour les autres */
+    border-radius: 5px;
+}
+.carré2 {
+    background-color: #779ecb;
+}
+
+.carré3 {
+    background-color: #fdfd96;
+}
+
+.niveau
+{
+    
+    padding-top: 20px;
+    font-family: Helvetica;
+}
+
+.ulavantages
+{
+    list-style-type: none; /* Enlève les puces */
+    padding: 0; /* Supprime le padding par défaut pour aligner correctement */
+    width: 100%; /* Assure que la liste utilise toute la largeur du bloc */
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    flex-direction: column; /* Arrange les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+.avantages
+{
+    color:black;
+    width: 170px;
+    font-family: Helvetica;
+    font-size: 17px;
+    text-align:center;
+    padding-bottom: 10px;
+    
+}
+
+.button2
+{
+     width: 60%; /* Taille maximale du bouton ajustée */
+    margin: 20px auto; /* Centrage horizontal et espace autour du bouton */
+    padding: 10px 0; /* Padding vertical pour donner un peu plus de hauteur */
+    display: block;
+    background: orange;
+    margin: 0 auto;
+    text-align:center;
+    line-height: 50px;
+    color:white;
+    font-size: 20px ;
+    font-family: Helvetica;
+    font-weight:bold;
+    border-radius: 3px;
+}
+
+.button2:hover
+{
+    background: #080d13;
+    color: orange;
+    font-weight:bold;
+    font-size:21px;
+    border: 1px solid orange;
+}
+
+                                  /* FOOTER */
+
+footer
+{
+    height: 200px;
+    background-color: #080d13 ;
+    border-bottom: 1px solid orange;
+}
+
+footer h1
+{
+    font-family: Helvetica;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    margin-left: 50%;
+    margin-right:50%;
+    margin-top:10px;
+    float: left;
+}
+
+footer h4
+{
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-left:3%;
+    color:white;
+    font-weight:bold;
+}   
+
+footer p
+{
+    font-family: Helvetica;
+    font-size: 10px;
+    color: white;
+    margin: 10px 0;
+}
+
+.social-media-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-links li {
+    margin: 0 10px;
+}
+
+
+.social-media-links a {
+    color: #fff; /* Icônes en blanc pour le contraste */
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.social-media-links a:hover {
+    color: #0077b5;
+}

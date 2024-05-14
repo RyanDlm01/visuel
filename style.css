@@ -382,14 +382,6 @@ footer h4
     font-weight:bold;
 }   
 
-footer p
-{
-    font-family: Helvetica;
-    font-size: 10px;
-    color: white;
-    margin: 10px 0;
-}
-
 .social-media-links {
     list-style: none;
     display: flex;

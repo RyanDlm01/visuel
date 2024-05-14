@@ -358,6 +358,7 @@ footer
     height: 200px;
     background-color: #080d13 ;
     border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
 }
 
 footer h1

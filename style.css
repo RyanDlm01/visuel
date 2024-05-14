@@ -41,19 +41,19 @@ header nav
 header nav ul
 {
      list-style: none;
-    display: flex; /* Utilisez flex ici aussi pour aligner horizontalement les liens */
-    padding: 0; /* Enlevez le padding par défaut */
-    margin: 0; /* Enlevez la marge par défaut */
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
 }
 header nav ul li
 {
-    margin-right: 30px; /* Ajustez selon l'espacement désiré */
+    margin-right: 30px; 
     text-transform: uppercase;
     font-weight: bold;
 }
 
 header nav ul li:last-child {
-    margin-right: 0; /* Pas de marge à droite pour le dernier élément */
+    margin-right: 0; 
 }
 
 a
@@ -135,9 +135,9 @@ strong
 #projets
 {
     display: flex;
-    flex-direction: row; /* Alignement horizontal par défaut */
-    justify-content: space-between; /* Espacement uniforme entre les éléments */
-    align-items: flex-start; /* Alignement vertical en haut */
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
     background-color: #080d13;
     border-bottom: 1px solid orange;
     padding: 20px;
@@ -148,7 +148,7 @@ strong
      font-family: Helvetica;
     font-size: 40px;
     color: white;
-    margin: 20px 0 20px; /* Ajoutez de l'espace en dessous du titre */
+    margin: 20px 0 20px; 
     text-transform: uppercase;
     align-self: flex-start;
     
@@ -157,7 +157,7 @@ strong
     
 .article1
 {
-    flex: 1 1 60%; /* Occupe 60% de l'espace disponible */
+    flex: 1 1 60%; 
     margin-top: 20px;
     margin-right: 20px;
 
@@ -179,8 +179,8 @@ strong
 }
 
 article ul {
-    width: 100%; /* Assurez-vous que le ul utilise toute la largeur */
-    padding: 0; /* Retirez tout padding intérieur par défaut */
+    width: 100%; 
+    padding: 0; 
 }
 
 article ul li
@@ -189,9 +189,9 @@ article ul li
     font-family: Helvetica;
     font-size: 20px;
     color:white;
-    margin: 0; /* Supprime la marge automatique */
+    margin: 0; 
     padding: 20px;
-    padding-left: 0; /* Supprime le padding gauche pour réduire l'espace */
+    padding-left: 0; 
        
 }
 
@@ -208,7 +208,7 @@ article ul li
 
 .paysage
 {
-    flex: 0 1 590px; /* Utilise flex-grow: 0 pour éviter que l'élément grandisse, flex-basis: 590px */
+    flex: 0 1 590px; 
     height: 400px;
     background: url('paysage.jpg') no-repeat center center;
     background-size: cover;
@@ -223,12 +223,12 @@ article ul li
 #formation
 {
     display: flex;
-    flex-wrap: wrap;  /* Permet aux éléments de passer à la ligne suivante si nécessaire */
-    justify-content: space-around; /* Assure un espacement uniforme autour des éléments */
-    align-items: flex-start; /* Alignement des éléments au début verticalement */
-    width: 100%; /* Assure que le conteneur prend toute la largeur disponible */
+    flex-wrap: wrap;  
+    justify-content: space-around; 
+    align-items: flex-start; 
+    width: 100%; 
     background-color: #080d13;
-    padding: 20px 0; /* Espacement vertical sans affecter la largeur */
+    padding: 20px 0;
     box-sizing: border-box;
 }
 
@@ -279,15 +279,15 @@ article ul li
 }
 
 .carré1, .carré2, .carré3 {
-    flex: 0 0 250px; /* Chaque bloc a une largeur fixe de 250px et ne grandit ni ne rétrécit */
-    margin: 20px; /* Espacement autour de chaque bloc */
-    display: flex; /* Utilise Flexbox pour aligner le contenu à l'intérieur */
+    flex: 0 0 250px; 
+    margin: 20px; 
+    display: flex;
     padding-bottom: 10px;
-    flex-direction: column; /* Arrange les éléments verticalement */
-    align-items: center; /* Centre horizontalement tous les éléments à l'intérieur */
-    justify-content: center; /* Centre verticalement le contenu */
-    height: auto; /* Ajuste la hauteur en fonction du contenu */
-    background-color: #898B8E; /* Couleur de fond pour carré1, ajustez pour les autres */
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: auto; 
+    background-color: #898B8E;
     border-radius: 5px;
 }
 .carré2 {
@@ -307,12 +307,12 @@ article ul li
 
 .ulavantages
 {
-    list-style-type: none; /* Enlève les puces */
-    padding: 0; /* Supprime le padding par défaut pour aligner correctement */
-    width: 100%; /* Assure que la liste utilise toute la largeur du bloc */
-    display: flex; /* Utilise Flexbox pour aligner les éléments */
-    flex-direction: column; /* Arrange les éléments verticalement */
-    align-items: center; /* Centre les éléments horizontalement */
+    list-style-type: none; 
+    padding: 0; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 .avantages
 {
@@ -327,9 +327,9 @@ article ul li
 
 .button2
 {
-     width: 60%; /* Taille maximale du bouton ajustée */
-    margin: 20px auto; /* Centrage horizontal et espace autour du bouton */
-    padding: 10px 0; /* Padding vertical pour donner un peu plus de hauteur */
+     width: 60%; 
+    margin: 20px auto; 
+    padding: 10px 0; 
     display: block;
     background: orange;
     margin: 0 auto;
@@ -394,7 +394,7 @@ footer h4
 
 
 .social-media-links a {
-    color: #fff; /* Icônes en blanc pour le contraste */
+    color: #fff;
     text-decoration: none;
     font-size: 40px;
 }
